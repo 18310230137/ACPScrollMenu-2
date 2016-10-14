@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930CE5B51DB0CEBE005C31B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5B41DB0CEBE005C31B7 /* main.m */; };
+		930CE5B81DB0CEBE005C31B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5B71DB0CEBE005C31B7 /* AppDelegate.m */; };
+		930CE5BB1DB0CEBE005C31B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5BA1DB0CEBE005C31B7 /* ViewController.m */; };
+		930CE5BE1DB0CEBE005C31B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930CE5BC1DB0CEBE005C31B7 /* Main.storyboard */; };
+		930CE5C01DB0CEBE005C31B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930CE5BF1DB0CEBE005C31B7 /* Assets.xcassets */; };
+		930CE5C31DB0CEBE005C31B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930CE5C11DB0CEBE005C31B7 /* LaunchScreen.storyboard */; };
+		930CE5CE1DB0CEBE005C31B7 /* ACPScrollMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5CD1DB0CEBE005C31B7 /* ACPScrollMenuTests.m */; };
+		930CE5D91DB0CEBE005C31B7 /* ACPScrollMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5D81DB0CEBE005C31B7 /* ACPScrollMenuUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		930CE5CA1DB0CEBE005C31B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930CE5A81DB0CEBE005C31B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930CE5AF1DB0CEBE005C31B7;
+			remoteInfo = ACPScrollMenu;
+		};
+		930CE5D51DB0CEBE005C31B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 930CE5A81DB0CEBE005C31B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 930CE5AF1DB0CEBE005C31B7;
+			remoteInfo = ACPScrollMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930CE5B01DB0CEBE005C31B7 /* ACPScrollMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACPScrollMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		930CE5B41DB0CEBE005C31B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		930CE5B61DB0CEBE005C31B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		930CE5B71DB0CEBE005C31B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		930CE5B91DB0CEBE005C31B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		930CE5BA1DB0CEBE005C31B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		930CE5BD1DB0CEBE005C31B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		930CE5BF1DB0CEBE005C31B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		930CE5C21DB0CEBE005C31B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		930CE5C41DB0CEBE005C31B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930CE5C91DB0CEBE005C31B7 /* ACPScrollMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACPScrollMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930CE5CD1DB0CEBE005C31B7 /* ACPScrollMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACPScrollMenuTests.m; sourceTree = "<group>"; };
+		930CE5CF1DB0CEBE005C31B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930CE5D41DB0CEBE005C31B7 /* ACPScrollMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACPScrollMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		930CE5D81DB0CEBE005C31B7 /* ACPScrollMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACPScrollMenuUITests.m; sourceTree = "<group>"; };
+		930CE5DA1DB0CEBE005C31B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		930CE5AD1DB0CEBE005C31B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE5C61DB0CEBE005C31B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE5D11DB0CEBE005C31B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930CE5A71DB0CEBE005C31B7 = {
+			isa = PBXGroup;
+			children = (
+				930CE5B21DB0CEBE005C31B7 /* ACPScrollMenu */,
+				930CE5CC1DB0CEBE005C31B7 /* ACPScrollMenuTests */,
+				930CE5D71DB0CEBE005C31B7 /* ACPScrollMenuUITests */,
+				930CE5B11DB0CEBE005C31B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		930CE5B11DB0CEBE005C31B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				930CE5B01DB0CEBE005C31B7 /* ACPScrollMenu.app */,
+				930CE5C91DB0CEBE005C31B7 /* ACPScrollMenuTests.xctest */,
+				930CE5D41DB0CEBE005C31B7 /* ACPScrollMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		930CE5B21DB0CEBE005C31B7 /* ACPScrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				930CE5B61DB0CEBE005C31B7 /* AppDelegate.h */,
+				930CE5B71DB0CEBE005C31B7 /* AppDelegate.m */,
+				930CE5B91DB0CEBE005C31B7 /* ViewController.h */,
+				930CE5BA1DB0CEBE005C31B7 /* ViewController.m */,
+				930CE5BC1DB0CEBE005C31B7 /* Main.storyboard */,
+				930CE5BF1DB0CEBE005C31B7 /* Assets.xcassets */,
+				930CE5C11DB0CEBE005C31B7 /* LaunchScreen.storyboard */,
+				930CE5C41DB0CEBE005C31B7 /* Info.plist */,
+				930CE5B31DB0CEBE005C31B7 /* Supporting Files */,
+			);
+			path = ACPScrollMenu;
+			sourceTree = "<group>";
+		};
+		930CE5B31DB0CEBE005C31B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930CE5B41DB0CEBE005C31B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		930CE5CC1DB0CEBE005C31B7 /* ACPScrollMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				930CE5CD1DB0CEBE005C31B7 /* ACPScrollMenuTests.m */,
+				930CE5CF1DB0CEBE005C31B7 /* Info.plist */,
+			);
+			path = ACPScrollMenuTests;
+			sourceTree = "<group>";
+		};
+		930CE5D71DB0CEBE005C31B7 /* ACPScrollMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				930CE5D81DB0CEBE005C31B7 /* ACPScrollMenuUITests.m */,
+				930CE5DA1DB0CEBE005C31B7 /* Info.plist */,
+			);
+			path = ACPScrollMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		930CE5AF1DB0CEBE005C31B7 /* ACPScrollMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930CE5DD1DB0CEBE005C31B7 /* Build configuration list for PBXNativeTarget "ACPScrollMenu" */;
+			buildPhases = (
+				930CE5AC1DB0CEBE005C31B7 /* Sources */,
+				930CE5AD1DB0CEBE005C31B7 /* Frameworks */,
+				930CE5AE1DB0CEBE005C31B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACPScrollMenu;
+			productName = ACPScrollMenu;
+			productReference = 930CE5B01DB0CEBE005C31B7 /* ACPScrollMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		930CE5C81DB0CEBE005C31B7 /* ACPScrollMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930CE5E01DB0CEBE005C31B7 /* Build configuration list for PBXNativeTarget "ACPScrollMenuTests" */;
+			buildPhases = (
+				930CE5C51DB0CEBE005C31B7 /* Sources */,
+				930CE5C61DB0CEBE005C31B7 /* Frameworks */,
+				930CE5C71DB0CEBE005C31B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930CE5CB1DB0CEBE005C31B7 /* PBXTargetDependency */,
+			);
+			name = ACPScrollMenuTests;
+			productName = ACPScrollMenuTests;
+			productReference = 930CE5C91DB0CEBE005C31B7 /* ACPScrollMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		930CE5D31DB0CEBE005C31B7 /* ACPScrollMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930CE5E31DB0CEBE005C31B7 /* Build configuration list for PBXNativeTarget "ACPScrollMenuUITests" */;
+			buildPhases = (
+				930CE5D01DB0CEBE005C31B7 /* Sources */,
+				930CE5D11DB0CEBE005C31B7 /* Frameworks */,
+				930CE5D21DB0CEBE005C31B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930CE5D61DB0CEBE005C31B7 /* PBXTargetDependency */,
+			);
+			name = ACPScrollMenuUITests;
+			productName = ACPScrollMenuUITests;
+			productReference = 930CE5D41DB0CEBE005C31B7 /* ACPScrollMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		930CE5A81DB0CEBE005C31B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = BQHZ;
+				TargetAttributes = {
+					930CE5AF1DB0CEBE005C31B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					930CE5C81DB0CEBE005C31B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 930CE5AF1DB0CEBE005C31B7;
+					};
+					930CE5D31DB0CEBE005C31B7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 930CE5AF1DB0CEBE005C31B7;
+					};
+				};
+			};
+			buildConfigurationList = 930CE5AB1DB0CEBE005C31B7 /* Build configuration list for PBXProject "ACPScrollMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 930CE5A71DB0CEBE005C31B7;
+			productRefGroup = 930CE5B11DB0CEBE005C31B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				930CE5AF1DB0CEBE005C31B7 /* ACPScrollMenu */,
+				930CE5C81DB0CEBE005C31B7 /* ACPScrollMenuTests */,
+				930CE5D31DB0CEBE005C31B7 /* ACPScrollMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		930CE5AE1DB0CEBE005C31B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930CE5C31DB0CEBE005C31B7 /* LaunchScreen.storyboard in Resources */,
+				930CE5C01DB0CEBE005C31B7 /* Assets.xcassets in Resources */,
+				930CE5BE1DB0CEBE005C31B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE5C71DB0CEBE005C31B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE5D21DB0CEBE005C31B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		930CE5AC1DB0CEBE005C31B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930CE5BB1DB0CEBE005C31B7 /* ViewController.m in Sources */,
+				930CE5B81DB0CEBE005C31B7 /* AppDelegate.m in Sources */,
+				930CE5B51DB0CEBE005C31B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE5C51DB0CEBE005C31B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930CE5CE1DB0CEBE005C31B7 /* ACPScrollMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930CE5D01DB0CEBE005C31B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930CE5D91DB0CEBE005C31B7 /* ACPScrollMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		930CE5CB1DB0CEBE005C31B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930CE5AF1DB0CEBE005C31B7 /* ACPScrollMenu */;
+			targetProxy = 930CE5CA1DB0CEBE005C31B7 /* PBXContainerItemProxy */;
+		};
+		930CE5D61DB0CEBE005C31B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 930CE5AF1DB0CEBE005C31B7 /* ACPScrollMenu */;
+			targetProxy = 930CE5D51DB0CEBE005C31B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		930CE5BC1DB0CEBE005C31B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930CE5BD1DB0CEBE005C31B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		930CE5C11DB0CEBE005C31B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				930CE5C21DB0CEBE005C31B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		930CE5DB1DB0CEBE005C31B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		930CE5DC1DB0CEBE005C31B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		930CE5DE1DB0CEBE005C31B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ACPScrollMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bqhz.ACPScrollMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		930CE5DF1DB0CEBE005C31B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ACPScrollMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bqhz.ACPScrollMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		930CE5E11DB0CEBE005C31B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ACPScrollMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bqhz.ACPScrollMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPScrollMenu.app/ACPScrollMenu";
+			};
+			name = Debug;
+		};
+		930CE5E21DB0CEBE005C31B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ACPScrollMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bqhz.ACPScrollMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACPScrollMenu.app/ACPScrollMenu";
+			};
+			name = Release;
+		};
+		930CE5E41DB0CEBE005C31B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ACPScrollMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bqhz.ACPScrollMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ACPScrollMenu;
+			};
+			name = Debug;
+		};
+		930CE5E51DB0CEBE005C31B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ACPScrollMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bqhz.ACPScrollMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ACPScrollMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		930CE5AB1DB0CEBE005C31B7 /* Build configuration list for PBXProject "ACPScrollMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930CE5DB1DB0CEBE005C31B7 /* Debug */,
+				930CE5DC1DB0CEBE005C31B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		930CE5DD1DB0CEBE005C31B7 /* Build configuration list for PBXNativeTarget "ACPScrollMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930CE5DE1DB0CEBE005C31B7 /* Debug */,
+				930CE5DF1DB0CEBE005C31B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		930CE5E01DB0CEBE005C31B7 /* Build configuration list for PBXNativeTarget "ACPScrollMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930CE5E11DB0CEBE005C31B7 /* Debug */,
+				930CE5E21DB0CEBE005C31B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		930CE5E31DB0CEBE005C31B7 /* Build configuration list for PBXNativeTarget "ACPScrollMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930CE5E41DB0CEBE005C31B7 /* Debug */,
+				930CE5E51DB0CEBE005C31B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 930CE5A81DB0CEBE005C31B7 /* Project object */;
+}
