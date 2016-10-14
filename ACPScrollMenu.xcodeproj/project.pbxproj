@@ -15,6 +15,10 @@
 		930CE5C31DB0CEBE005C31B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930CE5C11DB0CEBE005C31B7 /* LaunchScreen.storyboard */; };
 		930CE5CE1DB0CEBE005C31B7 /* ACPScrollMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5CD1DB0CEBE005C31B7 /* ACPScrollMenuTests.m */; };
 		930CE5D91DB0CEBE005C31B7 /* ACPScrollMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5D81DB0CEBE005C31B7 /* ACPScrollMenuUITests.m */; };
+		930CE5F71DB0D09C005C31B7 /* ACPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5F31DB0D09C005C31B7 /* ACPItem.m */; };
+		930CE5F81DB0D09C005C31B7 /* ACPItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930CE5F41DB0D09C005C31B7 /* ACPItem.xib */; };
+		930CE5F91DB0D09C005C31B7 /* ACPScrollMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE5F61DB0D09C005C31B7 /* ACPScrollMenu.m */; };
+		930CE6021DB0D1C8005C31B7 /* UIColor+ColorConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 930CE6011DB0D1C8005C31B7 /* UIColor+ColorConversion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		930CE5D41DB0CEBE005C31B7 /* ACPScrollMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACPScrollMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		930CE5D81DB0CEBE005C31B7 /* ACPScrollMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACPScrollMenuUITests.m; sourceTree = "<group>"; };
 		930CE5DA1DB0CEBE005C31B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930CE5F21DB0D09C005C31B7 /* ACPItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPItem.h; sourceTree = SOURCE_ROOT; };
+		930CE5F31DB0D09C005C31B7 /* ACPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPItem.m; sourceTree = SOURCE_ROOT; };
+		930CE5F41DB0D09C005C31B7 /* ACPItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACPItem.xib; sourceTree = SOURCE_ROOT; };
+		930CE5F51DB0D09C005C31B7 /* ACPScrollMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPScrollMenu.h; sourceTree = SOURCE_ROOT; };
+		930CE5F61DB0D09C005C31B7 /* ACPScrollMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPScrollMenu.m; sourceTree = SOURCE_ROOT; };
+		930CE6001DB0D1C8005C31B7 /* UIColor+ColorConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorConversion.h"; sourceTree = SOURCE_ROOT; };
+		930CE6011DB0D1C8005C31B7 /* UIColor+ColorConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorConversion.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,7 @@
 		930CE5B21DB0CEBE005C31B7 /* ACPScrollMenu */ = {
 			isa = PBXGroup;
 			children = (
+				930CE5EE1DB0CF98005C31B7 /* ACPScrollMenu */,
 				930CE5B61DB0CEBE005C31B7 /* AppDelegate.h */,
 				930CE5B71DB0CEBE005C31B7 /* AppDelegate.m */,
 				930CE5B91DB0CEBE005C31B7 /* ViewController.h */,
@@ -138,6 +150,20 @@
 				930CE5DA1DB0CEBE005C31B7 /* Info.plist */,
 			);
 			path = ACPScrollMenuUITests;
+			sourceTree = "<group>";
+		};
+		930CE5EE1DB0CF98005C31B7 /* ACPScrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				930CE6001DB0D1C8005C31B7 /* UIColor+ColorConversion.h */,
+				930CE6011DB0D1C8005C31B7 /* UIColor+ColorConversion.m */,
+				930CE5F21DB0D09C005C31B7 /* ACPItem.h */,
+				930CE5F31DB0D09C005C31B7 /* ACPItem.m */,
+				930CE5F41DB0D09C005C31B7 /* ACPItem.xib */,
+				930CE5F51DB0D09C005C31B7 /* ACPScrollMenu.h */,
+				930CE5F61DB0D09C005C31B7 /* ACPScrollMenu.m */,
+			);
+			name = ACPScrollMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				930CE5C31DB0CEBE005C31B7 /* LaunchScreen.storyboard in Resources */,
+				930CE5F81DB0D09C005C31B7 /* ACPItem.xib in Resources */,
 				930CE5C01DB0CEBE005C31B7 /* Assets.xcassets in Resources */,
 				930CE5BE1DB0CEBE005C31B7 /* Main.storyboard in Resources */,
 			);
@@ -274,8 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				930CE5BB1DB0CEBE005C31B7 /* ViewController.m in Sources */,
+				930CE5F91DB0D09C005C31B7 /* ACPScrollMenu.m in Sources */,
 				930CE5B81DB0CEBE005C31B7 /* AppDelegate.m in Sources */,
+				930CE5F71DB0D09C005C31B7 /* ACPItem.m in Sources */,
 				930CE5B51DB0CEBE005C31B7 /* main.m in Sources */,
+				930CE6021DB0D1C8005C31B7 /* UIColor+ColorConversion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bqhz.ACPScrollMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bqhz.ACPScrollMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
